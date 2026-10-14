@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono, Bricolage_Grotesque } from "next/font/google";
+import BrandCursor from "@/components/BrandCursor";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -31,6 +32,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       className={`${geistSans.variable} ${geistMono.variable} ${bricolage.variable} h-full antialiased dark snap-y snap-mandatory`}
     >
       <body className="min-h-full flex flex-col bg-background text-foreground font-sans">
+        <BrandCursor />
         {children}
       </body>
     </html>

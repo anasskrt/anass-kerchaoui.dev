@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Image from "next/image";
 
 const NAV_LINKS = [
   { label: "Projets", href: "#projets" },
@@ -15,12 +16,16 @@ export default function Navbar() {
   return (
     <header className="relative w-full">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-6 lg:px-8">
-        <a href="#" className="flex items-center gap-2.5">
-          <span className="flex h-8 w-8 items-center justify-center rounded-md bg-brand text-[15px] font-extrabold text-background">
-            AK
-          </span>
-          <span className="text-lg font-bold tracking-tight text-foreground">
-            Anass Kerchaoui
+        <a href="#" className="flex items-center">
+          <span className="flex items-center rounded-xl bg-white px-3 py-2">
+            <Image
+              src="/ak-mark.png"
+              alt="Anass Kerchaoui — Développeur Full-Stack"
+              width={1350}
+              height={1000}
+              priority
+              className="h-7 w-auto sm:h-8"
+            />
           </span>
         </a>
 

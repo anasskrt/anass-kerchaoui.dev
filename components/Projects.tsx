@@ -5,13 +5,13 @@ import ProjectFlipCard from "@/components/ProjectFlipCard";
 const PROJECTS = [
   {
     title: "digiK",
-    status: "Agence web · 15+ projets livrés",
+    status: "Agence web · 5+ projets livrés",
     stage: "Publié",
     stageColor: "#34d399",
     role: "Dirigeant & développeur",
     description:
-      "Agence de création de sites web sur mesure que j'ai fondée et que je développe. Plus de 10 projets menés à bien pour des clients variés, de la conception à la mise en ligne.",
-    tags: ["Agence web", "Sites sur mesure", "15+ projets"],
+      "Agence de création de sites et applications web sur mesure que j'ai fondée et que je développe. Plus de 5 projets menés à bien pour des clients variés, de la conception à la mise en ligne.",
+    tags: ["Agence web", "Sites sur mesure", "5+ projets"],
     image: "/digiK.png",
     gradient:
       "radial-gradient(130% 110% at 20% 15%, var(--panel-clay-from) 0%, var(--panel-clay-to) 100%)",
@@ -25,7 +25,8 @@ const PROJECTS = [
     role: "Facturation, comptabilité & OCR par IA",
     description:
       "Application de facturation et de suivi comptable, avec un module OCR propulsé par IA pour analyser automatiquement marchandises, contacts, clients et fournisseurs. Développement mis en pause le temps de m'adapter à l'évolution de la réglementation sur la facture électronique.",
-    tags: ["Facturation", "OCR / IA", "Comptabilité"],
+    tags: ["Facturation", "OCR / IA", "NestJs", "Angular", "PostgreSQL"],
+    image: "/infac.png",
     gradient:
       "radial-gradient(130% 110% at 20% 15%, var(--panel-slate-from) 0%, var(--panel-slate-to) 100%)",
     accent: "var(--panel-slate-to)",

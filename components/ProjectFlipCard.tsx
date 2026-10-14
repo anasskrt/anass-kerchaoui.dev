@@ -51,7 +51,7 @@ export default function ProjectFlipCard({
     // biome-ignore lint/a11y/useSemanticElements: a labelled card group, not a form fieldset
     <div
       aria-label={title}
-      className="group relative aspect-square w-full cursor-pointer rounded-[28px] outline-hidden [perspective:2000px] focus-visible:ring-2 focus-visible:ring-brand focus-visible:ring-offset-2 focus-visible:ring-offset-background"
+      className="group relative aspect-square w-full rounded-[28px] outline-hidden [perspective:2000px] focus-visible:ring-2 focus-visible:ring-brand focus-visible:ring-offset-2 focus-visible:ring-offset-background"
       onBlur={(e) => {
         if (!e.currentTarget.contains(e.relatedTarget)) {
           setHasKeyboardFocus(false);

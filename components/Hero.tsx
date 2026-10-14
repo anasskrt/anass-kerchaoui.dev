@@ -36,9 +36,11 @@ export default function Hero() {
           </div>
 
           <h1
-            className={`${enter} motion-safe:slide-in-from-bottom-4 motion-safe:delay-100 mt-8 font-display text-7xl font-extrabold leading-[0.95] tracking-tight text-foreground sm:text-8xl`}
+            className={`${enter} motion-safe:slide-in-from-bottom-4 motion-safe:delay-100 mt-8 font-display text-6xl font-extrabold leading-[0.95] tracking-tight text-foreground [hyphens:auto] sm:text-7xl lg:text-8xl`}
           >
-            Du code qui
+            Je conçois
+            <br />
+            ce qui
             <br />
             <span className="text-brand">tient</span> en
             <br />

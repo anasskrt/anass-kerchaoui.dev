@@ -20,7 +20,7 @@ const EXPERIENCES = [
     company: "École Nationale de la Magistrature",
     period: "Sept. 2023 — Sept. 2024",
     description:
-      "Développement d'une application web de formation utilisée par 1 300 juristes, composée de plusieurs modules ludiques. Conception de l'architecture Angular / Java et déploiement sur serveur Nginx. Sécurisation des données confidentielles (firewall, captchas) et UX conforme au RGAA 4.0 pour des utilisateurs avec troubles cognitifs.",
+      "Développement d'une application web de formation utilisée par 1 300 juristes, composée de plusieurs modules ludiques. Conception de l'architecture et du développement du projet avec Angular / Java et déploiement sur serveur Nginx. Equipe de 2 développeurs.",
     swatch: "var(--panel-to)",
     gradient:
       "radial-gradient(50% 50% at 88% 15%, color-mix(in srgb, var(--panel-to) 55%, transparent) 0%, transparent 72%)",
