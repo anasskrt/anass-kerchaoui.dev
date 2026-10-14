@@ -81,7 +81,7 @@ export default function Contact() {
 
         <Reveal delay={340} className="mt-8 flex flex-col gap-3 sm:flex-row">
           <a
-            href="/Anass-Kerchaoui.pdf"
+            href="/Kerchaoui-Anass.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className={linkClasses}
