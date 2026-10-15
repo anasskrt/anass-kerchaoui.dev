@@ -42,7 +42,7 @@ export default function Navbar() {
         </nav>
 
         <div className="hidden items-center gap-3 md:flex">
-          <button
+          {/* <button
             type="button"
             aria-label="Changer de thème"
             className="flex h-10 w-10 items-center justify-center rounded-full border border-white/15 text-foreground transition-colors hover:border-white/30"
@@ -60,7 +60,7 @@ export default function Navbar() {
               <circle cx="12" cy="12" r="4" />
               <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41" />
             </svg>
-          </button>
+          </button> */}
 
           <a
             href="#contact"
